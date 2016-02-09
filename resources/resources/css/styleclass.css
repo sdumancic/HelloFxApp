@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 8, 2015, Oct 8, 2015 7:12:47 PM
+    Author     : Sanjin
+*/
+
+.root{
+    -fx-cursor: hand;
+    -my-button-color:blue;
+}
+
+.hbox{
+    -fx-border-color: blue;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-border-insets: 5px;
+    -fx-padding:10px;
+    -fx-spacing: 5px;
+    -fx-background-color: lightgray;
+    -fx-background-insets: 5;
+}
+
+.button{
+    -fx-text-fill: -my-button-color;
+}
+
+
+.text-field:focused{
+    -fx-border-color: green;
+    -fx-border-width: 1;
+    -fx-background-color: burlywood;
+}
+
+#closeButton:hover{
+    -fx-text-fill: red;
+}

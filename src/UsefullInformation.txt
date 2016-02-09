@@ -1,0 +1,4 @@
+MVP = Model, View, Presenter
+Model = atributi + validacijska pravila
+View  = nodeovi na ekranu + layout. View ima referencu na model
+Presenter = eventi i reakcije na evente. Presenter ima referencu na model i view

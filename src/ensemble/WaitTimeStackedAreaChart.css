@@ -1,0 +1,114 @@
+.chart {
+    -fx-padding: 10px;
+}
+
+.chart-title {
+  -fx-text-fill: #4682b4;
+  -fx-font-size: 1.6em;
+}
+
+.chart-legend {
+   -fx-background-color:  transparent;
+   -fx-padding: 20px;
+}
+
+
+.axis {
+    -fx-font-size: 1.4em;    
+    -fx-tick-label-fill: #914800;
+    -fx-font-family: Tahoma;
+    -fx-tick-length: 20;
+    -fx-minor-tick-length: 10;
+}
+ 
+.axis-label {
+   -fx-text-fill: #462300; 
+}
+
+/*.axis-label {
+  -fx-text-fill: #4682b4;
+}*/
+
+/*.chart-legend-item-symbol{
+   -fx-background-radius: 0;
+}
+ 
+.chart-legend-item{
+    -fx-text-fill: #191970;
+}*/
+
+.chart-content {
+    -fx-padding: 10px;
+}
+
+.chart-series-area-fill.series0{
+        -fx-stroke: gren;
+        -fx-fill: green;
+}
+.chart-area-symbol.series0 { -fx-background-color: green; -fx-background-radius: 0;}
+
+.chart-series-area-fill.series1{
+        -fx-stroke: lightgreen;
+        -fx-fill: lightgreen;
+}
+.chart-area-symbol.series1 { -fx-background-color: lightgreen; -fx-background-radius: 0;}
+
+.chart-series-area-fill.series2{
+        -fx-stroke: blue;
+        -fx-fill: blue;
+}
+.chart-area-symbol.series2 { -fx-background-color: blue; -fx-background-radius: 0;}
+
+.chart-series-area-fill.series3{
+        -fx-stroke: #4682b4;
+        -fx-fill: #4682b4;
+}
+.chart-area-symbol.series3 { -fx-background-color: #4682b4; -fx-background-radius: 0;}
+
+.chart-series-area-fill.series4{
+        -fx-stroke: maroon;
+        -fx-fill: maroon;
+}
+.chart-area-symbol.series4 { -fx-background-color: maroon; -fx-background-radius: 0;}
+
+.chart-series-area-fill.series5{
+        -fx-stroke: firebrick;
+        -fx-fill: firebrick;
+}
+.chart-area-symbol.series5 { -fx-background-color: firebrick; -fx-background-radius: 0;}
+
+.chart-series-area-fill.series6{
+        -fx-stroke: orange;
+        -fx-fill: orange;
+}
+.chart-area-symbol.series6 { -fx-background-color: orange; -fx-background-radius: 0;}
+
+.chart-series-area-fill.series7{
+        -fx-stroke: #462300;
+        -fx-fill: #462300;
+}
+.chart-area-symbol.series7 { -fx-background-color: #462300; -fx-background-radius: 0;}
+
+.chart-series-area-fill.series8{
+        -fx-stroke: #914800;
+        -fx-fill: #914800;
+}
+.chart-area-symbol.series8 { -fx-background-color: #914800; -fx-background-radius: 0;}
+
+.chart-series-area-fill.series9{
+    -fx-stroke: #666666;
+    -fx-fill: #666666;
+}
+.chart-area-symbol.series9 { -fx-background-color: #666666; -fx-background-radius: 0;}
+
+.chart-series-area-fill.series10{
+    -fx-stroke: #cccccc;
+    -fx-fill: #cccccc;
+}
+.chart-area-symbol.series10 { -fx-background-color: #cccccc; -fx-background-radius: 0;}
+
+.chart-series-area-fill.series11{
+    -fx-stroke: pink;
+    -fx-fill: pink;
+}
+.chart-area-symbol.series11 { -fx-background-color: pink; -fx-background-radius: 0;}
