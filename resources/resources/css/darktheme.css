@@ -2,6 +2,7 @@
     -fx-base: #090a0c;
     -fx-control-inner-background: derive(-fx-base,40%);
 }
+
 /*
 .button {
     -fx-background-color: 
