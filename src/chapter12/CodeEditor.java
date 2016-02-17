@@ -139,7 +139,7 @@ public class CodeEditor extends StackPane {
             @Override
             public void handle(KeyEvent event) {
                 if (event.isControlDown() && event.getCode() == KeyCode.ENTER)
-                System.out.println("Execute code at caret");
+                    System.out.println("Execute code at caret");
             }
         });
 
