@@ -68,7 +68,7 @@ public class TableViewCellFactoryTest extends Application {
                                   PersonTableUtil.getLastNameColumn(),                                
                                   birthDateCol,                                
                                   babyCol); 
-        
+        table.setEditable(true);
         HBox root = new HBox(table);
         Scene scene = new Scene(root);
         

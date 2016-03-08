@@ -28,7 +28,7 @@ public class SimpleTableView extends Application {
     @Override
     public void start(Stage primaryStage) {
         TableView<Person> table = new TableView<>(/*PersonTableUtil.getPersonList()*/);
-
+table.setEditable(true);
         table.getColumns().addAll(PersonTableUtil.getIdColumn(), 
                                   PersonTableUtil.getFirstNameColumn(), 
                                   PersonTableUtil.getLastNameColumn(), 
